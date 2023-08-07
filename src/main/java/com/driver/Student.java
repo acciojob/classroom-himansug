@@ -1,5 +1,8 @@
 package com.driver;
 
+import org.springframework.core.annotation.AliasFor;
+
+
 public class Student {
 
     private String name;
@@ -9,6 +12,7 @@ public class Student {
     public Student(){
 
     }
+
     public Student(String name, int age, double averageScore) {
         this.name = name;
         this.age = age;
